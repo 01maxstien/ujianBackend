@@ -18,5 +18,7 @@ router.delete('/deleteCategorie',movieController.deleteCategory)
 router.get('/getConnection',movieController.getConnection)
 router.get('/deleteConnection',movieController.deleteConnection)
 router.get('/postConnection',movieController.postConnection)
+router.get('/getMovieName',movieController.getMovieName)
+router.get('/getMovieCategory',movieController.getMovieCategory)
 
 module.exports=router
